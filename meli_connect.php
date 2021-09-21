@@ -12,8 +12,14 @@ $secret_api = '';
 $tokens = '';
 $expires_in = 0;
 $categoria_referencia = "MLV1227";
-$categoria_referencia2 = "MLB432825";
-$SITE_ID = "MLB";
+$categoria_referencia2 = "MLB432825";  // Categoría de juguetes para niñas en Brasil
+$categoria_referencia3 = "MLB1648";  // Categoría de informática en Brasil
+$categoria_referencia4 = "MLV1144";  // Categoría de videojuegos y consolas en Venezuela
+$categoria_referencia5 = "MCO1144";  // Categoría de videojuegos y consolas en Colombia
+$categoria_referencia6 = "MCO1648";  // Categoría de computación en Colombia
+$SITE_ID = "MLB";  // Mercado Libre Brasil
+$SITE_ID2 = "MLV";  // Mercado Libre Venezuela
+$SITE_ID3 = "MCO";  // Mercado Libre Colombia
 
 function meli_connect($app_id, $secret_api, $expires_in, $tokens){
 
